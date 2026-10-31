@@ -1,0 +1,22 @@
+practice["16. Area, Perimeter, and Volume"] = [
+  { q: "What is the area of a rectangle with length 5 and width 3?", a: "15", e: "Area of a rectangle = length × width = 5 × 3 = 15." },
+  { q: "What is the perimeter of a rectangle with length 8 and width 4?", a: "24", e: "Perimeter = 2(length + width) = 2(8 + 4) = 2(12) = 24." },
+  { q: "What is the area of a triangle with base 10 and height 6?", a: "30", e: "Area = 1/2 × base × height = 1/2 × 10 × 6 = 30." },
+  { q: "What is the area of a circle with radius 3? Use 3.14 for pi. Enter the number only.", a: "28.26", e: "Area = πr² = 3.14 × 3² = 3.14 × 9 = 28.26." },
+  { q: "What is the circumference of a circle with radius 5? Use 3.14 for pi. Enter the number only.", a: "31.4", e: "Circumference = 2πr = 2 × 3.14 × 5 = 31.4." },
+  { q: "What is the volume of a rectangular prism with length 2, width 3, and height 4?", a: "24", e: "Volume = length × width × height = 2 × 3 × 4 = 24." },
+  { q: "If the radius of a circle is doubled, does the area double? Enter yes or no.", a: "no", e: "If r becomes 2r, the new area is π(2r)² = 4πr². The area quadruples, it does not double." },
+  { q: "What is the perimeter of a square with side length 7?", a: "28", e: "Perimeter of a square = 4 × side = 4 × 7 = 28." },
+  { q: "What is the area of a square with side length 6?", a: "36", e: "Area of a square = side² = 6² = 36." },
+  { q: "The scale factor between two similar shapes is 2. If the smaller shape has an area of 10, what is the area of the larger shape?", a: "40", e: "Area scales by the square of the scale factor. Area × 2² = 10 × 4 = 40." },
+  { q: "What is the area of a circle with diameter 10? Use 3.14 for pi. Enter the number only.", a: "78.5", e: "Diameter = 10, so radius = 5. Area = πr² = 3.14 × 25 = 78.5." },
+  { q: "What is the volume of a cube with side length 3?", a: "27", e: "Volume of a cube = side³ = 3³ = 27." },
+  { q: "What is the perimeter of a triangle with sides 3, 4, and 5?", a: "12", e: "Perimeter is the sum of the sides: 3 + 4 + 5 = 12." },
+  { q: "If a rectangle has area 20 and width 4, what is its length?", a: "5", e: "Length = Area ÷ width = 20 ÷ 4 = 5." },
+  { q: "What is the area of a triangle with base 8 and height 5?", a: "20", e: "Area = 1/2 × 8 × 5 = 20." },
+  { q: "What is the surface area of a cube with side length 2?", a: "24", e: "Surface area = 6 × side² = 6 × 4 = 24." },
+  { q: "If the scale factor of two similar shapes is 3, what is the ratio of their areas? Enter like 1:9.", a: "1:9", e: "Area ratio is the square of the scale factor: 1²:3² = 1:9." },
+  { q: "What is the volume of a cylinder with radius 2 and height 5? Use 3.14 for pi. Enter the number only.", a: "62.8", e: "Volume = πr²h = 3.14 × 2² × 5 = 3.14 × 4 × 5 = 62.8." },
+  { q: "A square has a perimeter of 20. What is its area?", a: "25", e: "Side = 20 ÷ 4 = 5. Area = 5² = 25." },
+  { q: "What is the circumference of a circle with diameter 10? Use 3.14 for pi. Enter the number only.", a: "31.4", e: "Circumference = πd = 3.14 × 10 = 31.4." }
+];

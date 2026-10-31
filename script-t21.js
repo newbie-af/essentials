@@ -1,0 +1,22 @@
+practice["21. Quadratic Equations"] = [
+  { q: "Solve for x: x^2 = 9. Enter the positive solution only.", a: "3", e: "Take the square root of both sides. The positive root is 3 (the other is -3)." },
+  { q: "Solve for x: x^2 - 16 = 0. Enter the positive solution only.", a: "4", e: "x² = 16. The positive root is 4." },
+  { q: "Solve for x: (x - 2)(x + 3) = 0. Enter the smaller solution.", a: "-3", e: "Set each factor to 0: x - 2 = 0 → x=2; x + 3 = 0 → x=-3. The smaller is -3." },
+  { q: "Solve for x: (x - 2)(x + 3) = 0. Enter the larger solution.", a: "2", e: "Set each factor to 0: x - 2 = 0 → x=2; x + 3 = 0 → x=-3. The larger is 2." },
+  { q: "In the quadratic formula, what is the discriminant? Enter the expression.", a: "b^2-4ac", e: "The discriminant is the part under the square root: b² - 4ac." },
+  { q: "If the discriminant is negative, how many real solutions does the quadratic have?", a: "0", e: "A negative discriminant means no real solutions (the parabola does not cross the x-axis)." },
+  { q: "If the discriminant is 0, how many real solutions does the quadratic have?", a: "1", e: "A discriminant of 0 means exactly one real solution (the vertex touches the x-axis)." },
+  { q: "Solve for x: x^2 - 5x + 6 = 0. Enter the smaller solution.", a: "2", e: "Factor to (x - 2)(x - 3) = 0. Solutions are 2 and 3. Smaller is 2." },
+  { q: "Solve for x: x^2 - 5x + 6 = 0. Enter the larger solution.", a: "3", e: "Factor to (x - 2)(x - 3) = 0. Solutions are 2 and 3. Larger is 3." },
+  { q: "What is the vertex of the parabola y = x^2 - 4?", a: "(0,-4)", e: "The equation is in the form y = a(x-h)² + k, where the vertex is (h,k). Here h=0, k=-4." },
+  { q: "Does the parabola y = x^2 open upwards or downwards?", a: "upwards", e: "The coefficient of x² is positive (1), so it opens upwards like a 'U'." },
+  { q: "Does the parabola y = -2x^2 open upwards or downwards?", a: "downwards", e: "The coefficient of x² is negative (-2), so it opens downwards." },
+  { q: "Solve for x: 2x^2 - 8 = 0. Enter the positive solution.", a: "2", e: "2x² = 8 → x² = 4 → x = 2 (positive)." },
+  { q: "What are the roots of y = (x - 5)^2?", a: "5", e: "Set (x - 5)² = 0. The only root is x = 5 (a double root)." },
+  { q: "What is the axis of symmetry for y = x^2 - 6x + 5? Enter like x=3.", a: "x=3", e: "Formula: x = -b/(2a). Here a=1, b=-6. x = -(-6)/(2·1) = 6/2 = 3." },
+  { q: "Solve for x: x^2 + 2x + 1 = 0.", a: "-1", e: "Factor to (x + 1)(x + 1) = 0. The root is -1." },
+  { q: "If a quadratic has solutions x = 2 and x = -4, what is the equation in factored form? Enter like (x-2)(x+4).", a: "(x-2)(x+4)", e: "If the roots are r and s, the factors are (x - r) and (x - s)." },
+  { q: "What is the y-intercept of y = x^2 + 3x - 4?", a: "-4", e: "The y-intercept is the constant term when x=0, which is -4." },
+  { q: "If a discriminant is positive, how many real solutions does the quadratic have?", a: "2", e: "A positive discriminant means two distinct real solutions." },
+  { q: "Complete the square for x^2 + 6x: what number do you add? (Enter the number only)", a: "9", e: "Take half of 6 (which is 3) and square it (3² = 9)." }
+];

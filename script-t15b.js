@@ -1,0 +1,22 @@
+practice["15B. Right-Triangle Trigonometry and Circles"] = [
+  { q: "What does SOH-CAH-TOA stand for?", a: "sine, cosine, tangent", e: "It is a mnemonic for the three basic trigonometric ratios." },
+  { q: "What is the sine of an angle in a right triangle?", a: "opposite/hypotenuse", e: "SOH: Sine = Opposite / Hypotenuse." },
+  { q: "What is the cosine of an angle in a right triangle?", a: "adjacent/hypotenuse", e: "CAH: Cosine = Adjacent / Hypotenuse." },
+  { q: "What is the tangent of an angle in a right triangle?", a: "opposite/adjacent", e: "TOA: Tangent = Opposite / Adjacent." },
+  { q: "What is the value of sin(30°)? Enter as a fraction.", a: "1/2", e: "In a 30-60-90 triangle, the side opposite 30° is half the hypotenuse." },
+  { q: "What is the value of cos(60°)? Enter as a fraction.", a: "1/2", e: "cos(60°) = sin(30°) = 1/2." },
+  { q: "What is the value of tan(45°)?", a: "1", e: "In a 45-45-90 triangle, the opposite and adjacent are equal, so tan = 1." },
+  { q: "In a 30-60-90 triangle, if the shorter leg is 4, what is the hypotenuse?", a: "8", e: "The hypotenuse is twice the shorter leg." },
+  { q: "In a 45-45-90 triangle, if the legs are 5, what is the hypotenuse?", a: "5√2", e: "Hypotenuse = leg × √2." },
+  { q: "What is the equation of a circle with center (0,0) and radius 5?", a: "x^2+y^2=25", e: "Standard form: x² + y² = r². Here, r = 5, so r² = 25." },
+  { q: "What is the equation of a circle with center (2, -1) and radius 3? Enter like (x-2)^2+(y+1)^2=9.", a: "(x-2)^2+(y+1)^2=9", e: "Standard form: (x - h)² + (y - k)² = r²." },
+  { q: "What is the area of a circle with radius 4? Use 3.14 for pi.", a: "50.24", e: "Area = πr² = 3.14 × 16 = 50.24." },
+  { q: "What is the circumference of a circle with diameter 10? Use 3.14 for pi.", a: "31.4", e: "Circumference = πd = 3.14 × 10 = 31.4." },
+  { q: "What is the length of an arc of a 90° sector with radius 6? Use 3.14 for pi.", a: "9.42", e: "Arc length = (90/360) × 2πr = (1/4) × 3.14 × 12 = 9.42." },
+  { q: "What is the area of a sector with radius 6 and central angle 60°? Use 3.14 for pi.", a: "18.84", e: "Area = (60/360) × πr² = (1/6) × 3.14 × 36 = 18.84." },
+  { q: "If sin(A) = 3/5, what is cos(A) in a right triangle?", a: "4/5", e: "Use the 3-4-5 Pythagorean triple. Adjacent = 4, hypotenuse = 5." },
+  { q: "If the hypotenuse is 13 and one leg is 5, what is the other leg?", a: "12", e: "5² + b² = 13². 25 + b² = 169. b² = 144. b = 12." },
+  { q: "What is the value of sin(45°)? Enter as a fraction.", a: "√2/2", e: "sin(45°) = 1/√2 = √2/2." },
+  { q: "What is the value of cos(45°)? Enter as a fraction.", a: "√2/2", e: "cos(45°) = √2/2." },
+  { q: "What is the center of the circle (x - 3)^2 + (y + 2)^2 = 16? Enter as (h,k).", a: "(3,-2)", e: "Compare to (x - h)² + (y - k)² = r². h = 3, k = -2." }
+];

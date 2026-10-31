@@ -1,0 +1,22 @@
+practice["19. Probability and Counting"] = [
+  { q: "If you flip a fair coin, what is the probability of getting heads? Enter as a fraction.", a: "1/2", e: "There are 2 possible outcomes (heads, tails) and 1 favorable outcome (heads). 1/2." },
+  { q: "If you roll a standard 6-sided die, what is the probability of rolling a 3? Enter as a fraction.", a: "1/6", e: "There are 6 possible outcomes, and only one 3. 1/6." },
+  { q: "If you roll a standard 6-sided die, what is the probability of rolling an even number? Enter as a fraction.", a: "1/2", e: "The even numbers are 2, 4, 6 (3 favorable outcomes). 3/6 = 1/2." },
+  { q: "What is the probability of an impossible event? Enter the number only.", a: "0", e: "An impossible event has 0 favorable outcomes, so the probability is 0." },
+  { q: "What is the probability of a certain event? Enter the number only.", a: "1", e: "A certain event is guaranteed to happen, so the probability is 1." },
+  { q: "A bag has 3 red marbles and 2 blue marbles. What is the probability of drawing a blue marble? Enter as a fraction.", a: "2/5", e: "Total marbles = 5. Blue marbles = 2. Probability = 2/5." },
+  { q: "A bag has 4 red marbles and 6 green marbles. What is the probability of drawing a red marble? Enter as a fraction.", a: "2/5", e: "Total = 10. Red = 4. 4/10 simplifies to 2/5." },
+  { q: "If you flip a coin twice, what is the probability of getting heads both times? Enter as a fraction.", a: "1/4", e: "The outcomes are HH, HT, TH, TT. Only 1 is HH. 1/4." },
+  { q: "If you roll a die, what is the probability of rolling a number greater than 4? Enter as a fraction.", a: "1/3", e: "The numbers greater than 4 are 5 and 6 (2 outcomes). 2/6 = 1/3." },
+  { q: "How many different ways can you arrange the letters A, B, and C?", a: "6", e: "3! = 3 × 2 × 1 = 6 ways." },
+  { q: "A menu has 3 appetizers and 4 main courses. How many different 1-appetizer, 1-main meals can you make?", a: "12", e: "Multiply the choices: 3 × 4 = 12." },
+  { q: "In a standard deck of 52 cards, what is the probability of drawing a heart? Enter as a fraction.", a: "1/4", e: "There are 13 hearts in a 52-card deck. 13/52 = 1/4." },
+  { q: "If the probability of rain is 0.3, what is the probability it does NOT rain?", a: "0.7", e: "The sum of all probabilities is 1. 1 - 0.3 = 0.7." },
+  { q: "If a coin is flipped 3 times, how many total possible outcomes are there?", a: "8", e: "2 × 2 × 2 = 8 (HHH, HHT, HTH, HTT, THH, THT, TTH, TTT)." },
+  { q: "A spinner has 4 equal sections numbered 1 to 4. What is the probability of landing on a 1 or 2? Enter as a fraction.", a: "1/2", e: "2 favorable outcomes out of 4. 2/4 = 1/2." },
+  { q: "How many ways can you choose a president and a vice-president from 4 people?", a: "12", e: "4 choices for president × 3 choices for VP = 12." },
+  { q: "If you draw a card from a deck, what is the probability of getting an Ace? Enter as a fraction.", a: "1/13", e: "There are 4 Aces in 52 cards. 4/52 = 1/13." },
+  { q: "A bag has 5 red, 3 blue, and 2 yellow marbles. What is the probability of NOT drawing red? Enter as a fraction.", a: "1/2", e: "Non-red = 3 blue + 2 yellow = 5. Total = 10. 5/10 = 1/2." },
+  { q: "If you flip a coin and roll a die, how many total possible outcomes are there?", a: "12", e: "2 outcomes for the coin × 6 outcomes for the die = 12." },
+  { q: "If you roll two dice, what is the probability of rolling a sum of 2? Enter as a fraction.", a: "1/36", e: "Only (1,1) gives a sum of 2, out of 36 total possibilities." }
+];

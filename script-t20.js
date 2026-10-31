@@ -1,0 +1,22 @@
+practice["20. Polynomials and Factoring"] = [
+  { q: "Simplify: (2x + 3) + (4x + 5)", a: "6x+8", e: "Combine like terms: 2x + 4x = 6x; 3 + 5 = 8." },
+  { q: "Simplify: (5x - 2) - (2x + 1)", a: "3x-3", e: "Distribute the negative: 5x - 2 - 2x - 1 = 3x - 3." },
+  { q: "Multiply: x(x + 4)", a: "x^2+4x", e: "Distribute the x: x·x + x·4 = x² + 4x." },
+  { q: "Multiply: (x + 2)(x + 3)", a: "x^2+5x+6", e: "FOIL: x·x + x·3 + 2·x + 2·3 = x² + 3x + 2x + 6 = x² + 5x + 6." },
+  { q: "Factor out the GCF: 4x + 8", a: "4(x+2)", e: "The greatest common factor is 4. Divide both terms by 4." },
+  { q: "Factor out the GCF: 6x^2 + 9x", a: "3x(2x+3)", e: "The GCF is 3x. Divide both terms by 3x." },
+  { q: "Factor the difference of squares: x^2 - 9", a: "(x-3)(x+3)", e: "a² - b² = (a-b)(a+b). Here, a=x and b=3." },
+  { q: "Factor the difference of squares: x^2 - 25", a: "(x-5)(x+5)", e: "a² - b² = (a-b)(a+b). Here, a=x and b=5." },
+  { q: "Factor the trinomial: x^2 + 5x + 6", a: "(x+2)(x+3)", e: "Find two numbers that multiply to 6 and add to 5. Those are 2 and 3." },
+  { q: "Factor the trinomial: x^2 + 7x + 12", a: "(x+3)(x+4)", e: "Find two numbers that multiply to 12 and add to 7. Those are 3 and 4." },
+  { q: "Factor the trinomial: x^2 - 5x + 6", a: "(x-2)(x-3)", e: "Find two numbers that multiply to 6 and add to -5. Those are -2 and -3." },
+  { q: "Multiply: (x - 3)(x - 3)", a: "x^2-6x+9", e: "This is (x - 3)². FOIL: x² - 3x - 3x + 9 = x² - 6x + 9." },
+  { q: "Simplify: 3x^2 + 2x^2 - x", a: "5x^2-x", e: "Combine like terms: 3x² + 2x² = 5x². The -x is separate." },
+  { q: "Factor: 2x^2 + 4x", a: "2x(x+2)", e: "The GCF is 2x." },
+  { q: "Factor: x^2 - 1", a: "(x-1)(x+1)", e: "Difference of squares where b=1." },
+  { q: "Multiply: (2x)(3x^2)", a: "6x^3", e: "Multiply coefficients (2·3 = 6) and add exponents (x¹ · x² = x³)." },
+  { q: "Multiply: (x + 1)(x^2 + 2x + 3)", a: "x^3+3x^2+5x+3", e: "Distribute x: x³ + 2x² + 3x. Distribute 1: x² + 2x + 3. Combine: x³ + 3x² + 5x + 3." },
+  { q: "Is (x + 2) a factor of x^2 + 4x + 4? Enter yes or no.", a: "yes", e: "x² + 4x + 4 factors to (x + 2)(x + 2)." },
+  { q: "Factor the trinomial: x^2 - 9x + 20", a: "(x-4)(x-5)", e: "Find two numbers that multiply to 20 and add to -9. Those are -4 and -5." },
+  { q: "Simplify: (x^2)(x^3)", a: "x^5", e: "Add the exponents: 2 + 3 = 5." }
+];

@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Foundational Math — Learning Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="app">
+    <div class="shell">
+
+      <header class="topbar">
+        <div class="brand">
+          <span class="brand-mark">∑</span>
+          Your personal learning hub
+        </div>
+        <div class="top-actions">
+          <button class="btn primary" id="mockExamBtn">Take Mock Exam</button>
+          <button class="btn" id="expandAll">Expand all</button>
+          <button class="btn" id="reset">Reset progress</button>
+        </div>
+      </header>
+
+      <section class="hero">
+        <div>
+          <div class="eyebrow">Mathematics · Track 01</div>
+          <h1>Foundational Math</h1>
+          <p class="intro">
+            Build the fundamentals, test what you know, and track your progress.
+            Work through a topic, practice without looking at the solution,
+            then mark it complete when you can solve problems independently.
+          </p>
+        </div>
+
+        <div class="progress-card">
+          <div class="progress-head">
+            <span>Roadmap progress</span>
+            <strong class="big-count" id="percent">0%</strong>
+          </div>
+          <div class="track">
+            <span id="bar"></span>
+          </div>
+          <div class="progress-foot">
+            <span id="count">0 topics completed</span>
+            <span id="remaining">topics remaining</span>
+          </div>
+        </div>
+      </section>
+
+      <div class="layout">
+        <aside class="sidebar">
+          <div class="side-title">Your roadmap</div>
+          <nav class="nav" id="nav"></nav>
+          <div class="sidebar-note">
+            Study loop: learn → practice → review mistakes → mark complete.
+          </div>
+        </aside>
+
+        <main class="main">
+          <div class="toolbar">
+            <div class="search">
+              <input
+                id="search"
+                type="search"
+                placeholder="Search topics or skills…"
+                aria-label="Search topics"
+              >
+            </div>
+
+            <select class="filter" id="statusFilter" aria-label="Filter topics">
+              <option value="all">All topics</option>
+              <option value="todo">Not completed</option>
+              <option value="done">Completed</option>
+            </select>
+          </div>
+
+          <div id="roadmap"></div>
+          <div class="empty" id="empty">No topics match your search.</div>
+
+        </main>
+      </div>
+
+      <div class="footer">
+        Progress is saved automatically in this browser on this device.
+      </div>
+
+    </div>
+  </div>
+
+  <div
+    class="modal-backdrop"
+    id="quizModal"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="quizTitle"
+  >
+    <section class="quiz">
+      <div class="quiz-top">
+        <div>
+          <div class="quiz-kicker">Practice mode</div>
+          <h2 id="quizTitle">Topic practice</h2>
+          <p class="quiz-sub" id="quizSub">
+            Answer each question, then check your work.
+          </p>
+        </div>
+        <button class="close" id="closeQuiz" aria-label="Close practice">×</button>
+      </div>
+
+      <div id="quizActive">
+        <div class="quiz-progress">
+          <span id="quizBar"></span>
+        </div>
+
+        <div class="question-label" id="questionLabel">Question 1</div>
+        <div class="question" id="questionText"></div>
+
+        <div class="answer-row">
+          <input
+            id="answerInput"
+            type="text"
+            autocomplete="off"
+            placeholder="Type your answer"
+          >
+          <button class="btn primary" id="checkAnswer">Check answer</button>
+        </div>
+
+        <div class="feedback" id="feedback"></div>
+
+        <div class="quiz-bottom">
+          <span class="score" id="score">0 correct so far</span>
+          <button class="btn primary" id="nextQuestion" disabled>
+            Next question
+          </button>
+        </div>
+      </div>
+
+      <div class="quiz-finish" id="quizFinish">
+        <div class="quiz-kicker">Practice set complete</div>
+        <strong id="finalScore">0 / 10</strong>
+        <p id="finishMessage"></p>
+        <button class="btn" id="reviewMissedBtn" style="display: none; margin-right: 8px; background-color: var(--site-secondary); color: var(--site-on-secondary);">Review Missed</button>
+        <button class="btn primary" id="retryQuiz">Try again</button>
+      </div>
+    </section>
+  </div>
+
+  <!-- FOUNDATION & ALGEBRA (Topics 1-18) -->
+  <script src="script-data.js"></script>
+  <script src="script-t01.js"></script>
+  <script src="script-t02.js"></script>
+  <script src="script-t03.js"></script>
+  <script src="script-t04.js"></script>
+  <script src="script-t05.js"></script>
+  <script src="script-t06.js"></script>
+  <script src="script-t07.js"></script>
+  <script src="script-t08.js"></script>
+  <script src="script-t09.js"></script>
+  <script src="script-t10.js"></script>
+  <script src="script-t11.js"></script>
+  <script src="script-t12.js"></script>
+  <script src="script-t13.js"></script>
+  <script src="script-t14.js"></script>
+  <script src="script-t15.js"></script>
+  <script src="script-t15b.js"></script>
+  <script src="script-t16.js"></script>
+  <script src="script-t17.js"></script>
+  <script src="script-t18.js"></script>
+
+  <!-- CSE EXAM PREP -->
+  <script src="script-cse1.js"></script>
+  <script src="script-cse2.js"></script>
+  <script src="script-cse3.js"></script>
+
+  <!-- CSE VERBAL, ANALYTICAL, GEN INFO -->
+  <script src="script-verb1.js"></script>
+  <script src="script-verb2.js"></script>
+  <script src="script-analog.js"></script>
+  <script src="script-logic.js"></script>
+  <script src="script-geninfo1.js"></script>
+  <script src="script-geninfo2.js"></script>
+
+  <!-- SAT EXAM PREP (Advanced) -->
+  <script src="script-sat1.js"></script>
+  <script src="script-sat2.js"></script>
+  <script src="script-sat3.js"></script>
+  <script src="script-satrw1.js"></script>
+  <script src="script-satrw2.js"></script>
+  <script src="script-satrw3.js"></script>
+  <script src="script-satrw4.js"></script>
+
+  <!-- CORE LOGIC (Must be at the very bottom) -->
+  <script src="script-core.js"></script>
+  <script src="script-quiz.js"></script>
+</body>
+</html>

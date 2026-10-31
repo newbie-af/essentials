@@ -1,0 +1,22 @@
+practice["22. Functions and Nonlinear Relationships"] = [
+  { q: "If f(x) = 2x + 1, what is f(3)?", a: "7", e: "Substitute x=3: 2(3) + 1 = 6 + 1 = 7." },
+  { q: "If f(x) = x^2, what is f(4)?", a: "16", e: "Substitute x=4: 4² = 16." },
+  { q: "If f(x) = 3x - 2, what is f(0)?", a: "-2", e: "Substitute x=0: 3(0) - 2 = -2." },
+  { q: "Does the equation y = 3x + 2 represent a linear function? Enter yes or no.", a: "yes", e: "It is in the form y = mx + b (slope-intercept), which is a line." },
+  { q: "Does the equation y = x^2 represent a linear function? Enter yes or no.", a: "no", e: "The x is squared, so the graph is a parabola, which is nonlinear." },
+  { q: "If f(x) = 5x, what is f(2) + f(3)?", a: "25", e: "f(2) = 10, f(3) = 15. 10 + 15 = 25." },
+  { q: "In y = 2^x, does the function represent exponential growth or decay?", a: "growth", e: "Because the base (2) is greater than 1, the values grow rapidly." },
+  { q: "In y = (0.5)^x, does the function represent exponential growth or decay?", a: "decay", e: "Because the base (0.5) is between 0 and 1, the values decrease as x increases." },
+  { q: "If f(x) = x + 4 and g(x) = 2x, what is f(g(3))?", a: "10", e: "First find g(3) = 2(3) = 6. Then find f(6) = 6 + 4 = 10." },
+  { q: "If f(x) = 2x, what is f(x+1)? Enter the expression.", a: "2x+2", e: "Substitute x+1 for x: 2(x+1) = 2x + 2." },
+  { q: "Is the function f(x) = x^3 linear? Enter yes or no.", a: "no", e: "It is a cubic function. Its graph is an S-curve, not a straight line." },
+  { q: "What is the domain of f(x) = x^2?", a: "all real numbers", e: "You can square any real number." },
+  { q: "If f(x) = -2x + 5, what is f(2)?", a: "1", e: "-2(2) + 5 = -4 + 5 = 1." },
+  { q: "Is y = 4 a linear function? Enter yes or no.", a: "yes", e: "It is a horizontal line, which is a valid linear function (slope = 0)." },
+  { q: "If f(x) = x^2 - 1, what is f(3)?", a: "8", e: "3² - 1 = 9 - 1 = 8." },
+  { q: "If g(x) = 3x, what is g(0)?", a: "0", e: "3(0) = 0." },
+  { q: "In exponential growth y = a(b)^x, must b be greater than 1? Enter yes or no.", a: "yes", e: "A growth factor (b) must be > 1. If 0 < b < 1, it is decay." },
+  { q: "If f(x) = 4x - 1, find x when f(x) = 11.", a: "3", e: "Set the equation to 11: 4x - 1 = 11 → 4x = 12 → x = 3." },
+  { q: "Is the graph of an exponential function a straight line? Enter yes or no.", a: "no", e: "Exponential graphs are curves that get steeper over time." },
+  { q: "If f(x) = x + 2 and g(x) = x - 3, what is f(g(5))?", a: "4", e: "g(5) = 5 - 3 = 2. f(2) = 2 + 2 = 4." }
+];

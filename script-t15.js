@@ -1,0 +1,22 @@
+practice["15. Lines, Angles, and Triangles"] = [
+  { q: "Two angles that add up to 90 degrees are called what? Enter complementary or supplementary.", a: "complementary", e: "Complementary angles sum to 90°. Supplementary angles sum to 180°." },
+  { q: "Two angles that add up to 180 degrees are called what? Enter complementary or supplementary.", a: "supplementary", e: "Supplementary angles sum to 180°." },
+  { q: "What is the sum of the interior angles of any triangle? Enter the number only.", a: "180", e: "The angles inside any triangle always add up to 180°." },
+  { q: "In a right triangle, one angle is 90°. If another angle is 30°, what is the third angle?", a: "60", e: "180 − 90 − 30 = 60." },
+  { q: "A triangle has angles 50° and 60°. What is the third angle?", a: "70", e: "180 − 50 − 60 = 70." },
+  { q: "In a right triangle with legs 3 and 4, what is the hypotenuse?", a: "5", e: "Pythagorean theorem: a² + b² = c² → 3² + 4² = 9 + 16 = 25. √25 = 5." },
+  { q: "In a right triangle with legs 6 and 8, what is the hypotenuse?", a: "10", e: "6² + 8² = 36 + 64 = 100. √100 = 10." },
+  { q: "If a right triangle has a hypotenuse of 13 and one leg of 5, what is the other leg?", a: "12", e: "5² + b² = 13² → 25 + b² = 169 → b² = 144 → b = 12." },
+  { q: "Vertical angles are always equal. Enter yes or no.", a: "yes", e: "Vertical angles (opposite each other when two lines cross) are always congruent." },
+  { q: "What is the sum of the exterior angles of any polygon? Enter the number only.", a: "360", e: "No matter how many sides a polygon has, its exterior angles always sum to 360°." },
+  { q: "Two triangles are similar if their corresponding angles are equal. Enter yes or no.", a: "yes", e: "Similar triangles have the same shape (equal angles) but can be different sizes (proportional sides)." },
+  { q: "A triangle has sides 3, 4, and 5. Is it a right triangle? Enter yes or no.", a: "yes", e: "3² + 4² = 9 + 16 = 25 = 5². This satisfies the Pythagorean theorem." },
+  { q: "A triangle has sides 4, 5, and 6. Is it a right triangle? Enter yes or no.", a: "no", e: "4² + 5² = 16 + 25 = 41. 6² = 36. Since 41 ≠ 36, it is not a right triangle." },
+  { q: "If an angle is 45°, what is its complementary angle?", a: "45", e: "90 − 45 = 45." },
+  { q: "If an angle is 110°, what is its supplementary angle?", a: "70", e: "180 − 110 = 70." },
+  { q: "In an equilateral triangle, what is the measure of each interior angle?", a: "60", e: "All three angles are equal: 180 ÷ 3 = 60°." },
+  { q: "In a right triangle with legs 5 and 12, what is the hypotenuse?", a: "13", e: "5² + 12² = 25 + 144 = 169. √169 = 13." },
+  { q: "In a right triangle, the longest side is called the what?", a: "hypotenuse", e: "The hypotenuse is always opposite the right angle and is the longest side." },
+  { q: "If two angles are vertical and one is 40°, what is the other?", a: "40", e: "Vertical angles are always equal." },
+  { q: "An isosceles triangle has two equal angles of 40°. What is the third angle?", a: "100", e: "180 − 40 − 40 = 100." }
+];

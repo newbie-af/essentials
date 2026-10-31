@@ -1,0 +1,22 @@
+practice["17. Data Organization and Interpretation (Tables and Graphs)"] = [
+  { q: "In a bar graph, what does the height of each bar represent?", a: "frequency", e: "The height (or length) of a bar shows the frequency or count of that category." },
+  { q: "On a scatterplot, what does a strong positive correlation look like?", a: "upward trend", e: "As x increases, y also increases, creating an upward-sloping pattern." },
+  { q: "A pie chart is best used to show what?", a: "proportions", e: "Pie charts show how a whole (100%) is divided into parts or proportions." },
+  { q: "If a table shows 10 students like Math, 5 like Science, and 5 like English, what fraction like Math?", a: "1/2", e: "Total students = 20. Math lovers = 10. 10/20 = 1/2." },
+  { q: "A line graph is most often used to show data over what?", a: "time", e: "Line graphs are excellent for showing trends over time (like temperature or stock prices)." },
+  { q: "In a scatterplot, if the points are tightly clustered in a downward line, what type of correlation is this?", a: "negative", e: "A downward line means as one variable increases, the other decreases. This is a negative correlation." },
+  { q: "A school has 200 students. If a pie chart shows 25% prefer basketball, how many students is that?", a: "50", e: "25% of 200 = 0.25 × 200 = 50." },
+  { q: "What is the line of best fit used for on a scatterplot?", a: "prediction", e: "It is used to model the trend and make predictions about data points not explicitly plotted." },
+  { q: "If a graph shows sales rising from Jan to Dec, what is the trend?", a: "increasing", e: "The values are going up over time." },
+  { q: "A bar chart shows: A=20, B=30, C=10. What is the total?", a: "60", e: "20 + 30 + 10 = 60." },
+  { q: "If a pie chart represents 360 degrees, and a category is 50%, how many degrees is it?", a: "180", e: "50% of 360 = 0.5 × 360 = 180." },
+  { q: "In a two-way table, if row 1 has 15 and row 2 has 25, what is the total?", a: "40", e: "15 + 25 = 40." },
+  { q: "If a line graph goes from 10 to 20 to 30, what is the constant rate of change?", a: "10", e: "It increases by 10 each step." },
+  { q: "Does a scatterplot require numerical data on both axes? Enter yes or no.", a: "yes", e: "Scatterplots show the relationship between two quantitative variables." },
+  { q: "If a graph shows a flat horizontal line, what is the trend?", a: "constant", e: "A flat line means the values are not changing." },
+  { q: "In a pie chart, if one slice is 90 degrees, what percent is it?", a: "25%", e: "90 / 360 = 0.25 = 25%." },
+  { q: "If a data set has an outlier, does it strongly affect the mean? Enter yes or no.", a: "yes", e: "The mean is very sensitive to extreme values (outliers), while the median is not." },
+  { q: "If a bar graph shows 2x the height for Category A compared to Category B, does that mean Category A has twice the frequency? Enter yes or no.", a: "yes", e: "Bar heights are proportional to the values they represent." },
+  { q: "What is the independent variable on a scatterplot usually placed on?", a: "x-axis", e: "The independent (explanatory) variable goes on the horizontal x-axis." },
+  { q: "What is the dependent variable on a scatterplot usually placed on?", a: "y-axis", e: "The dependent (response) variable goes on the vertical y-axis." }
+];
