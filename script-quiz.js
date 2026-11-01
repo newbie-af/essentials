@@ -54,6 +54,9 @@ function showQuestion() {
     index === questions.length - 1 ? "See results" : "Next question";
 
   document.getElementById("score").textContent = correct + " correct so far";
+
+  // Focus the input for keyboard-only flow
+  setTimeout(() => document.getElementById("answerInput").focus(), 50);
 }
 
 function normalize(v) {
@@ -119,6 +122,7 @@ function check() {
   document.getElementById("checkAnswer").disabled = true;
   document.getElementById("nextQuestion").disabled = false;
   document.getElementById("score").textContent = correct + " correct so far";
+  document.getElementById("nextQuestion").focus();
 }
 
 function next() {
@@ -149,6 +153,9 @@ function next() {
       finishMsg.textContent = "Review the missed questions below to master them.";
       reviewBtn.style.display = "inline-block";
     }
+
+    // Focus the retry button so Enter can restart the quiz
+    setTimeout(() => document.getElementById("retryQuiz").focus(), 50);
   }
 }
 
@@ -157,21 +164,46 @@ function next() {
 document.getElementById("checkAnswer").addEventListener("click", check);
 document.getElementById("nextQuestion").addEventListener("click", next);
 
-document.getElementById("answerInput").addEventListener("keydown", e => {
-  if (e.key === "Enter") {
-    if (!checked) check();
-    else next();
+// Global Enter key handler for full keyboard flow:
+//   - Enter on an unanswered question: checks the answer (if input has text)
+//   - Enter after checking: advances to next question
+//   - Enter on results screen: retries the quiz
+document.addEventListener("keydown", e => {
+  if (e.key !== "Enter") return;
+  if (!modal.classList.contains("open")) return;
+
+  // Ignore if user is typing in some other field (safety)
+  const tag = document.activeElement && document.activeElement.tagName;
+  if (tag === "SELECT" || tag === "TEXTAREA") return;
+
+  // If the results screen is visible, Enter = Try again
+  const finishVisible = document.getElementById("quizFinish").style.display === "block";
+  if (finishVisible) {
+    e.preventDefault();
+    document.getElementById("retryQuiz").click();
+    return;
+  }
+
+  // On an active question:
+  e.preventDefault();
+  if (!checked) {
+    // Only check if there's text in the input
+    const val = document.getElementById("answerInput").value.trim();
+    if (val) check();
+  } else {
+    next();
   }
 });
 
+// Close button (the ×) is the primary intentional exit
 document.getElementById("closeQuiz").addEventListener("click", () => {
   modal.classList.remove("open");
 });
 
-modal.addEventListener("click", e => {
-  if (e.target === modal) modal.classList.remove("open");
-});
+// NOTE: Clicking the backdrop no longer closes the quiz.
+// This prevents accidental exits and lost progress.
 
+// Escape still closes the quiz (intentional keyboard exit)
 document.addEventListener("keydown", e => {
   if (e.key === "Escape" && modal.classList.contains("open")) {
     modal.classList.remove("open");
